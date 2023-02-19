@@ -1,8 +1,12 @@
+import Header from "./components/Header/Header"
+
 function App() {
 
   return (
-    <div className="App">
-      <h1 className="text-black">Mono</h1>
+    <div className="App bg-white w-full overflow-hidden">
+      <div className="xl:max-w-[1280px] mx-auto">
+        <Header />
+      </div>
     </div>
   )
 }

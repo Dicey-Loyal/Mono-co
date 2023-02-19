@@ -9,10 +9,11 @@ module.exports = {
         secondary: "#15181e",
         tertiary: "#E3E5E888",
         card: "#1a1d23",
-        button: "#22262f",
+        button: "#0055BA",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
+        dmSans: ['DM Sans', 'sans-serif'],
       },
     },
   },
