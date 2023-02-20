@@ -19,7 +19,7 @@ const Hero = () => {
 
           <div className="hero-text-section">
             {/* Hero title */}
-          <h2 className='text-4xl font-medium py-7 md:text-6xl md:py-12 md:font-bold md:leading-[70px] xl:text-[80px] xl:leading-[90px] font-dmSans'>
+          <h2 className='text-4xl font-medium py-7 md:text-6xl md:py-12 md:font-normal md:leading-[70px] xl:text-[80px] xl:leading-[90px] font-dpsans'>
             Reliably access bank accounts
           </h2>
           {/* hero description */}

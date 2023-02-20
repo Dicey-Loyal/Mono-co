@@ -10,11 +10,12 @@ module.exports = {
         tertiary: "#E3E5E888",
         card: "#1a1d23",
         button: "#0055BA",
-        grey: "#f5f5f5"
+        grey: "#f5f5f5",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
-        dmSans: ['DM Sans', 'sans-serif'],
+        dmSans: ["DM Sans", "sans-serif"],
+        dpsans: ["Duplicate Sans", "sans-serif"],
       },
     },
   },

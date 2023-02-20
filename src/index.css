@@ -3,3 +3,9 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Duplicate Sans";
+    src: url("https://dmojr33s8375o.cloudfront.net/_next/static/media/DuplicateSans-Medium.0e4e3671931292cba87b48e731987e13.woff2");
+    font-weight: 400;
+    font-style: normal;
+  }
