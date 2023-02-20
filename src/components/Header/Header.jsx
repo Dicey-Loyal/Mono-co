@@ -8,9 +8,9 @@ import Button from "../../snippets/Buttons/Button";
 const Header = () => {
   return (
     <nav className="w-full mx-auto">
-        <div className="w-[90vw] md:w-[85vw] xl:w-[75vw] flex py-8 xl:py-5 justify-between items-center navbar mx-auto">
+        <div className="w-[90vw] md:w-[85vw] xl:w-[75vw] flex py-10 xl:py-5 justify-between items-center navbar mx-auto">
             <div className="logo">
-                <img src={Logo} alt="Nav Logo" className="cursor-pointer w-28" />
+                <img src={Logo} alt="Nav Logo" className="cursor-pointer w-32" />
             </div>
 
             <ul className="list-none justify-end items-center flex">
@@ -21,7 +21,7 @@ const Header = () => {
                 ))}
             </ul>
 
-            <Button title="Sign in" className="bg-button rounded-md px-4 py-3 text-white font-dmSans hidden xl:flex" />
+            <Button title="Sign in" className="bg-button rounded-lg px-5 py-2 text-white font-medium font-dmSans hidden xl:flex" />
         </div>
     </nav>
   )
