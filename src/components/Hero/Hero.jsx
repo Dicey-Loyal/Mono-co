@@ -1,6 +1,7 @@
 import { BiRightArrowAlt } from "react-icons/bi";
 import Button from "../../snippets/Buttons/Button";
 import Heroimg from "../../assets/mono-hero.png";
+import TrustedCompanies from "./TrustedCompanies";
 
 const Hero = () => {
   return (
@@ -10,23 +11,25 @@ const Hero = () => {
         <div className='md:basis-2/4 px-4 md:ml-10 lg:ml-0'>
           <div className='w-fit rounded-full bg-grey mt-[70px] md:mt-[100px] flex items-center px-4 py-2'>
             <button className='bg-button h-fit w-fit rounded-full py-1 px-3'>
-              <p className='text-white text-xs font-medium uppercase font-dmSans'>New</p>
+              <p className='text-white text-xs font-medium uppercase font-dmSans'>
+                New
+              </p>
             </button>
             <p className='text-black pl-2 font-medium text-xs flex items-center'>
               Mono is live in Kenya! <BiRightArrowAlt className='ml-2' />{" "}
             </p>
           </div>
 
-          <div className="hero-text-section">
+          <div className='hero-text-section'>
             {/* Hero title */}
-          <h2 className='text-4xl font-medium py-7 md:text-6xl md:py-12 md:font-normal md:leading-[70px] xl:text-[80px] xl:leading-[90px] font-dpsans'>
-            Reliably access bank accounts
-          </h2>
-          {/* hero description */}
-          <p className='font-normal font-dmSans md:text-2xl max-w-xl xl:leading-9 xl:py-1'>
-            Mono helps businesses to access high-quality financial data and
-            direct bank payments.
-          </p>
+            <h2 className='text-4xl font-medium py-7 md:text-6xl md:py-12 md:font-normal md:leading-[70px] xl:text-[80px] xl:leading-[90px] font-dpsans'>
+              Reliably access bank accounts
+            </h2>
+            {/* hero description */}
+            <p className='font-normal font-dmSans md:text-2xl max-w-xl xl:leading-9 xl:py-1'>
+              Mono helps businesses to access high-quality financial data and
+              direct bank payments.
+            </p>
           </div>
 
           <div className='flex gap-3 xl:mt-6'>
@@ -46,6 +49,8 @@ const Hero = () => {
           <img src={Heroimg} alt='hero image' className='w-[75%]' />
         </div>
       </div>
+        {/* Trusted Companies */}
+        <TrustedCompanies />
     </section>
   );
 };

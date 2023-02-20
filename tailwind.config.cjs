@@ -11,6 +11,7 @@ module.exports = {
         card: "#1a1d23",
         button: "#0055BA",
         grey: "#f5f5f5",
+        lightGray: "#606060",
       },
       fontFamily: {
         inter: ["Inter", "sans-serif"],
