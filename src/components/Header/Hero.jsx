@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section>
       {/* container */}
-      <div className='max-w-7xl flex flex-col md:flex-row justify-evenly mx-auto'>
-        <div className='md:basis-2/4 px-3'>
+      <div className='max-w-7xl flex flex-col md:flex-row md:justify-between lg:justify-evenly mx-auto'>
+        <div className='md:basis-2/4 px-4 md:ml-10 lg:ml-0'>
           <div className='w-fit rounded-full bg-grey mt-[70px] md:mt-[100px] flex items-center px-4 py-2'>
             <button className='bg-button h-fit w-fit rounded-full py-1 px-3'>
               <p className='text-white text-xs font-medium uppercase font-dmSans'>New</p>
@@ -30,19 +30,19 @@ const Hero = () => {
           </div>
 
           <div className='flex gap-3 xl:mt-6'>
-            <button className='bg-button py-3 px-2 rounded-lg my-7 text-white flex items-center justify-center font-dmSans font-bold text-base group md:w-[210px] '>
+            <button className='bg-button py-3 px-2 rounded-lg my-7 text-white flex items-center justify-center font-dmSans font-bold text-base group max-w-fit'>
               Get started for free
-              <BiRightArrowAlt className='ml-2 group-hover:ml-3' />
+              <BiRightArrowAlt className='ml-2 group-hover:ml-3 transition-all' />
             </button>
 
-            <button className='bg-grey py-3 px-2 rounded-lg my-7 text-black flex items-center justify-center font-dmSans font-bold text-base group md:w-[180px]'>
+            <button className='bg-grey py-3 px-2 rounded-lg my-7 text-black flex items-center justify-center font-dmSans font-bold text-base group max-w-fit'>
               Contact Sales
-              <BiRightArrowAlt className='ml-2 group-hover:ml-3' />
+              <BiRightArrowAlt className='ml-2 group-hover:ml-3 transition-all' />
             </button>
           </div>
         </div>
 
-        <div className='hidden md:flex justify-center items-end '>
+        <div className='hidden lg:flex justify-center items-end '>
           <img src={Heroimg} alt='hero image' className='w-[75%]' />
         </div>
       </div>
