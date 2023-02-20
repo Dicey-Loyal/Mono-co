@@ -1,5 +1,6 @@
 import { navLinks } from "../../constants/static";
 import {FaChevronDown} from 'react-icons/fa';
+import {RxHamburgerMenu} from 'react-icons/rx';
 import { useState } from "react";
 import Logo from '../../assets/monologo1.svg'
 import Button from "../../snippets/Buttons/Button";
@@ -22,6 +23,7 @@ const Header = () => {
             </ul>
 
             <Button title="Sign in" className="bg-button rounded-lg px-5 py-2 text-white font-medium font-dmSans hidden xl:flex" />
+            <RxHamburgerMenu className="md:hidden"/>
         </div>
     </nav>
   )
