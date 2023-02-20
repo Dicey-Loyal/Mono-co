@@ -23,7 +23,7 @@ const Header = () => {
             </ul>
 
             <Button title="Sign in" className="bg-button rounded-lg px-5 py-2 text-white font-medium font-dmSans hidden xl:flex" />
-            <RxHamburgerMenu className="md:hidden"/>
+            <RxHamburgerMenu className="lg:hidden"/>
         </div>
     </nav>
   )
