@@ -5,14 +5,14 @@ import Evolve from "../../assets/evolvecredit.svg";
 
 const TrustedCompanies = () => {
   return (
-    <section className="mx-auto my-10 max-w-6xl">
+    <section className="mx-auto my-10 max-w-6xl px-5 md:px-0">
         <p className="py-4 font-semibold text-lightGray font-dmSans text-base w-fit h-fit">Trusted by</p>
         {/* Grid Section */}
-        <div className="grid grid-cols-4 gap-8 my-6">
-            <img src={Carbon} alt="" />
-            <img src={Autocheck} alt="" />
-            <img src={Flutterwave} alt="" />
-            <img src={Evolve} alt="" />
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 my-6 mx-auto">
+            <img src={Carbon} alt="" className="w-[100px] md:w-[170px]" />
+            <img src={Autocheck} alt="" className="w-[100px] md:w-[170px]" />
+            <img src={Flutterwave} alt="" className="w-[100px] md:w-[170px]" />
+            <img src={Evolve} alt="" className="w-[100px] md:w-[170px]" />
         </div>
     </section>
   )
