@@ -9,3 +9,19 @@
     font-weight: 400;
     font-style: normal;
   }
+  .connectbg{
+    background-image: url(../src/assets/BuildImages/connect.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+  }
+  .directbg{
+    background-image: url(../src/assets/BuildImages/directpay.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+  }
+  .perceptbg{
+    background-image: url(../src/assets/BuildImages/percept.png);
+    background-size:cover;
+    background-repeat: no-repeat; 
+  }
