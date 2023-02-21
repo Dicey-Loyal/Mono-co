@@ -8,7 +8,6 @@ module.exports = {
         primary: "#0d0e12",
         secondary: "#15181e",
         tertiary: "#E3E5E888",
-        card: "#1a1d23",
         button: "#0055BA",
         grey: "#f5f5f5",
         lightGray: "#606060",
