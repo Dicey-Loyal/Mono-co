@@ -35,11 +35,11 @@ const Business = () => {
       {/* Main Content */}
       <div className='pt-10 px-6 bg-grey rounded-lg'>
         {/* Buttons */}
-        <aside className={`my-4 hidden md:flex gap-4 max-w-2xl font-normal`}>
+        <aside className={`my-4 gap-4 max-w-2xl font-normal`}>
           {BUSINESS_LIST.map((item, index) => (
             <div
               className={`py-3 px-4 rounded-full text-black cursor-pointer ${
-                index === 0 ? "bg-black text-white" : "bg-transparent"
+                index === 0 ? "bg-black text-white flex w-fit" : "bg-transparent hidden"
               }`}
               key={item.id}
             >
