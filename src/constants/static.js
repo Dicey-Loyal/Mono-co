@@ -13,6 +13,9 @@ import Tutorials from "../assets/tutorials-icon.svg";
 import Coverage from "../assets/product-icon.svg";
 import Overview from "../assets/overview-icon.svg";
 import Documentation from "../assets/docs-icon.svg";
+import Quote from "../assets/quote.svg";
+import Testimonial1 from "../assets/testimonial1.svg";
+import Testimonial2 from "../assets/testimonial2.svg";
 
 export const navLinks = [
   {
@@ -115,5 +118,43 @@ export const Developers = [
     id: 'documentation',
     title: 'Documentation',
     img: Documentation,
+  },
+];
+
+export const BUSINESS_LIST = [
+  {
+    id: "lending",
+    title: "Lending",
+  },
+  {
+    id: "financial",
+    title: "Financial Management",
+  },
+  {
+    id: "account",
+    title: "Account Verification",
+  },
+  {
+    id: "payment",
+    title: "Payments",
+  },
+];
+
+export const CARD_LIST = [
+  {
+    id: 1,
+    img: Quote,
+    body: "It's important to go with a data provider that inspires confidence in users to give consent to share their data; this is one of our favourite things about Mono.",
+    name: "Barima Effah-Adjei",
+    post: "Co-founder, Float",
+    test: Testimonial1,
+  },
+  {
+    id: 2,
+    img: Quote,
+    body: "The onboarding and integration process with Mono was smooth. Our Engineering and Product teams use the dashboard to oversee our statement collection process.",
+    name: "Emmanuel Ogunsola",
+    post: "Product Manager, Aella",
+    test: Testimonial2,
   },
 ];
