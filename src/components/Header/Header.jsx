@@ -30,7 +30,7 @@ const Header = () => {
         </ul>
 
         <div className='md:hidden flex justify-end'>
-          <img src={Logo} alt='Nav Logo' className='cursor-pointer relative right-56 w-32 z-[99999999]' />
+          <img src={Logo} alt='Nav Logo' className='cursor-pointer relative right-48 w-32 z-[99999999]' />
           <img
             src={toggle ? Close : Menu}
             alt='menu'
