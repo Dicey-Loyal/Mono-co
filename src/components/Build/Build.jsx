@@ -13,7 +13,7 @@ const Build = () => {
         <p className='text-2xl md:text-4xl lg:text-6xl max-w-lg font-normal font-dpsans'>
           Build for the future of digital finance.
         </p>
-        <p className='text-lg py-4 font-dmSans md:max-w-sm font-medium'>
+        <p className='text-lg py-4 font-dmSans md:max-w-sm font-normal'>
           Bring tomorrow's solutions to life, with our customer-focused
           solutions, today.
         </p>

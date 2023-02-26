@@ -1,25 +1,8 @@
 import BusinessImg from "../../assets/business.svg";
 import { BiRightArrowAlt } from "react-icons/bi";
+import { BUSINESS_LIST } from "../../constants/static";
 
 const Business = () => {
-  const BUSINESS_LIST = [
-    {
-      id: "lending",
-      title: "Lending",
-    },
-    {
-      id: "financial",
-      title: "Financial Management",
-    },
-    {
-      id: "account",
-      title: "Account Verification",
-    },
-    {
-      id: "payment",
-      title: "Payments",
-    },
-  ];
   return (
     <section className='max-w-6xl px-5 mx-auto'>
       {/* Header */}
@@ -27,7 +10,7 @@ const Business = () => {
         <p className='text-2xl md:text-4xl lg:text-6xl max-w-lg font-normal font-dpsans'>
           Businesses Building With Mono
         </p>
-        <p className='text-lg py-4 font-dmSans md:max-w-sm font-medium'>
+        <p className='text-lg py-4 font-dmSans md:max-w-sm font-normal'>
           Here are some of the interesting features and experiences powered by
           Mono.
         </p>
@@ -35,11 +18,11 @@ const Business = () => {
       {/* Main Content */}
       <div className='pt-10 px-6 bg-grey rounded-lg'>
         {/* Buttons */}
-        <aside className={`my-4 gap-4 max-w-2xl font-normal`}>
+        <aside className={`my-4 gap-4 max-w-2xl font-normal w-fit flex`}>
           {BUSINESS_LIST.map((item, index) => (
             <div
-              className={`py-3 px-4 rounded-full text-black cursor-pointer ${
-                index === 0 ? "bg-black text-white flex w-fit" : "bg-transparent hidden"
+              className={`py-3 px-4 rounded-full text-black cursor-pointer w-fit ${
+                index === 0 ? "bg-black text-white flex w-fit" : "bg-transparent hidden lg:flex w-fit"
               }`}
               key={item.id}
             >
