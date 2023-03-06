@@ -16,6 +16,10 @@ import Documentation from "../assets/docs-icon.svg";
 import Quote from "../assets/quote.svg";
 import Testimonial1 from "../assets/testimonial1.svg";
 import Testimonial2 from "../assets/testimonial2.svg";
+import BusinessImg from '../assets/business.svg';
+import InflowImg from "../assets/inflow-app.svg";
+import RenMoney from "../assets/renmoney.svg";
+import Lemonade from "../assets/lemonade.svg";
 
 export const navLinks = [
   {
@@ -158,3 +162,38 @@ export const CARD_LIST = [
     test: Testimonial2,
   },
 ];
+
+export const BUSINESS_CONTENT = [
+  {
+    id: 1,
+    title: "Carbon's personalized loan offers",
+    subtitle: "Carbon wanted to make their risk assessment and borrower qualification better with high-quality data.",
+    body: "Using Mono's Statement Pages, Carbon can receive its users' bank statements in minutes. They get cash flow on the accounts for up to 12 months, all seamlessly without writing a single line of code.",
+    link: "Read more about Statement Pages",
+    img: BusinessImg,
+  },
+  {
+    id: 2,
+    title: "Inflow's Personal Finance Manager",
+    subtitle: "Inflow Finance, using Mono Connect, allows thousands of users to understand and manage their finances across multiple accounts all in one place.",
+    body: "Just by linking their financial accounts to the Inflow app using Mono, Inflow's users can now get a better view of their financial health by monitoring real-time balances and transactions across accounts, create budgets, and get personal insights on their spending habits.",
+    link: "Read more about Connect",
+    img: InflowImg,
+  },
+  {
+    id: 3,
+    title: "Renmoney's secure onboarding",
+    subtitle: "Renmoney needed to streamline the verification of new users during onboarding.",
+    body: "Using Mono Connect, Renmoney is able to verify users' account information in seconds by having them link their financial accounts.",
+    link: "Read more about Connect",
+    img: RenMoney,
+  },
+  {
+    id: 4,
+    title: "Lemonade Finance's cross-border transfers",
+    subtitle: "",
+    body: "Lemonade finance makes it easy to send and receive money from Nigeria, Kenya, Ghana, Canada, and the UK. Using DirectPay, Lemonade enables its users to make secure direct cash deposits to be transferred to the country of their choice.",
+    link: "Read more about Connect",
+    img: Lemonade,
+  },
+]
