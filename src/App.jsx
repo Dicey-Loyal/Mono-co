@@ -3,6 +3,7 @@ import Hero from "./components/Hero/Hero";
 import Build from "./components/Build/Build";
 import Business from "./components/Business/Business";
 import WhyUs from "./components/Why-Us/WhyUs";
+import GettingStarted from "./components/GettingStarted/GettingStarted.component";
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
         <Business />
         <WhyUs />
       </div>
+      <GettingStarted />
     </div>
   )
 }
