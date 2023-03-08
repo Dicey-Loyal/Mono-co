@@ -16,6 +16,10 @@ import Documentation from "../assets/docs-icon.svg";
 import Quote from "../assets/quote.svg";
 import Testimonial1 from "../assets/testimonial1.svg";
 import Testimonial2 from "../assets/testimonial2.svg";
+import BusinessImg from "../assets/business.svg";
+import InflowImg from "../assets/inflow-app.svg";
+import RenMoney from "../assets/renmoney.svg";
+import Lemonade from "../assets/lemonade.svg";
 
 export const navLinks = [
   {
@@ -38,85 +42,85 @@ export const navLinks = [
 
 export const whyMono = [
   {
-    id: 'why-mono',
-    title: 'Why Mono',
+    id: "why-mono",
+    title: "Why Mono",
     img: HeartIcon,
   },
   {
-    id: 'pricing',
-    title: 'Pricing',
+    id: "pricing",
+    title: "Pricing",
     img: PricingIcon,
   },
   {
-    id: 'demo',
-    title: 'See a Demo',
+    id: "demo",
+    title: "See a Demo",
     img: MovieIcon,
   },
 ];
 export const ourProducts = [
   {
-    id: 'connect',
-    title: 'Connect',
+    id: "connect",
+    title: "Connect",
     img: Connect,
   },
   {
-    id: 'statement',
-    title: 'Statement Pages',
+    id: "statement",
+    title: "Statement Pages",
     img: Statement,
   },
   {
-    id: 'direct_pay',
-    title: 'DirectPay',
+    id: "direct_pay",
+    title: "DirectPay",
     img: DirectPay,
   },
   {
-    id: 'direct_pay_pages',
-    title: 'DirectPay Pages',
+    id: "direct_pay_pages",
+    title: "DirectPay Pages",
     img: DirectPayPages,
   },
   {
-    id: 'portal',
-    title: 'Portal',
+    id: "portal",
+    title: "Portal",
     img: Portal,
   },
   {
-    id: 'percept',
-    title: 'Percept',
+    id: "percept",
+    title: "Percept",
     img: Percepts,
   },
 ];
 
 export const Learn = [
   {
-    id: 'about',
-    title: 'About Us',
+    id: "about",
+    title: "About Us",
     img: About,
   },
   {
-    id: 'blog',
-    title: 'Blog',
+    id: "blog",
+    title: "Blog",
     img: Blog,
   },
   {
-    id: 'tutorials',
-    title: 'Tutorials',
+    id: "tutorials",
+    title: "Tutorials",
     img: Tutorials,
   },
   {
-    id: 'coverage',
-    title: 'Coverage',
+    id: "coverage",
+    title: "Coverage",
     img: Coverage,
-  }
+  },
 ];
 export const Developers = [
   {
-    id: 'overview',
-    title: 'Overview',
+    id: "overview",
+    title: "Overview",
     img: Overview,
   },
   {
-    id: 'documentation',
-    title: 'Documentation',
+    id: "documentation",
+    title: "Documentation",
     img: Documentation,
   },
 ];
@@ -160,7 +164,7 @@ export const CARD_LIST = [
 ];
 
 // getting started
-import  api from "../assets/getStartedImages/powerfulapi.png";
+import api from "../assets/getStartedImages/powerfulapi.png";
 import bag from "../assets/getStartedImages/sdks.png";
 import wallet from "../assets/getStartedImages/wallet.png";
 import support from "../assets/getStartedImages/slack.png";
@@ -168,32 +172,68 @@ import apiresponse from "../assets/getStartedImages/apiresponse.png";
 
 export const gettingStartedUno = [
   {
-    id : 1,
-    icon : api,
-    title : "Powerful APIs and easy-to-use resources",
-    link : "read our API Docs",
-    img : apiresponse
+    id: 1,
+    icon: api,
+    title: "Powerful APIs and easy-to-use resources",
+    link: "read our API Docs",
+    img: apiresponse,
   },
-]
+];
 
 export const gettingStartedDos = [
   {
-    id : 2,
-    icon : bag,
-    title : "Plug-and-play SDKs",
-    link : "explore our SDKs"
-
+    id: 2,
+    icon: bag,
+    title: "Plug-and-play SDKs",
+    link: "explore our SDKs",
   },
   {
-    id : 3,
+    id: 3,
     icon: wallet,
-    title : "Beautiful seamless UX",
-    link : "see a demo"
+    title: "Beautiful seamless UX",
+    link: "see a demo",
   },
   {
-    id : 4,
-    icon : support ,
-    title : "Always-on support",
-    link : "Join Us On Slack"
+    id: 4,
+    icon: support,
+    title: "Always-on support",
+    link: "Join Us On Slack",
   },
-]
+];
+export const BUSINESS_CONTENT = [
+  {
+    id: 1,
+    title: "Carbon's personalized loan offers",
+    subtitle:
+      "Carbon wanted to make their risk assessment and borrower qualification better with high-quality data.",
+    body: "Using Mono's Statement Pages, Carbon can receive its users' bank statements in minutes. They get cash flow on the accounts for up to 12 months, all seamlessly without writing a single line of code.",
+    link: "Read more about Statement Pages",
+    img: BusinessImg,
+  },
+  {
+    id: 2,
+    title: "Inflow's Personal Finance Manager",
+    subtitle:
+      "Inflow Finance, using Mono Connect, allows thousands of users to understand and manage their finances across multiple accounts all in one place.",
+    body: "Just by linking their financial accounts to the Inflow app using Mono, Inflow's users can now get a better view of their financial health by monitoring real-time balances and transactions across accounts, create budgets, and get personal insights on their spending habits.",
+    link: "Read more about Connect",
+    img: InflowImg,
+  },
+  {
+    id: 3,
+    title: "Renmoney's secure onboarding",
+    subtitle:
+      "Renmoney needed to streamline the verification of new users during onboarding.",
+    body: "Using Mono Connect, Renmoney is able to verify users' account information in seconds by having them link their financial accounts.",
+    link: "Read more about Connect",
+    img: RenMoney,
+  },
+  {
+    id: 4,
+    title: "Lemonade Finance's cross-border transfers",
+    subtitle: "",
+    body: "Lemonade finance makes it easy to send and receive money from Nigeria, Kenya, Ghana, Canada, and the UK. Using DirectPay, Lemonade enables its users to make secure direct cash deposits to be transferred to the country of their choice.",
+    link: "Read more about Connect",
+    img: Lemonade,
+  },
+];

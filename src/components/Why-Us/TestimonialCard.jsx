@@ -2,7 +2,7 @@ import { CARD_LIST } from "../../constants/static";
 
 const TestimonialCard = () => {
   return (
-    <section className='testimonial-card my-3 sm:block md:flex justify-evenly gap-3 max-w-6xl mx-auto py-5'>
+    <section className='testimonial-card my-3 sm:block md:flex justify-evenly gap-3 max-w-6xl mx-auto py-6'>
       {CARD_LIST.map((item) => (
         <div
           className='bg-grey my-3 py-8 px-7 rounded-lg w-full'

@@ -1,8 +1,11 @@
+import { useState } from "react";
 import BusinessImg from "../../assets/business.svg";
 import { BiRightArrowAlt } from "react-icons/bi";
 import { BUSINESS_LIST } from "../../constants/static";
+import { BUSINESS_CONTENT } from "../../constants/static";
 
 const Business = () => {
+  const[key, setKey] = useState(0);
   return (
     <section className='max-w-6xl px-5 mx-auto'>
       {/* Header */}
@@ -20,41 +23,38 @@ const Business = () => {
         {/* Buttons */}
         <aside className={`my-4 gap-4 max-w-2xl font-normal w-fit flex`}>
           {BUSINESS_LIST.map((item, index) => (
-            <div
+            <button
               className={`py-3 px-4 rounded-full text-black cursor-pointer w-fit ${
-                index === 0 ? "bg-black text-white flex w-fit" : "bg-transparent hidden lg:flex w-fit"
+                index === 0 ? "bg-black text-white flex w-fit" : "bg-transparent hidden md:flex w-fit hover:bg-[#e9e9e9]"
               }`}
               key={item.id}
+              onClick = {() => setKey(index)}
             >
               <p className='text-sm font-dmSans'>{item.title}</p>
-            </div>
+            </button>
           ))}
         </aside>
 
         {/* Content */}
         <section className='my-10 flex flex-col md:flex-row justify-between'>
-          <div className='text-content pt-6'>
+        <div className='text-content pt-6 z-[99999]'>
             <p className='text-2xl md:text-3xl lg:text-5xl max-w-lg font-normal font-dpsans'>
-              Carbon's personalized loan offers
+              {BUSINESS_CONTENT[key].title}
             </p>
             <p className='text-base md:text-lg leading-normal text-lightGray py-4 font-dmSans md:max-w-md font-normal'>
-              Carbon wanted to make their risk assessment and borrower
-              qualification better with high-quality data.
+              {BUSINESS_CONTENT[key].subtitle}
             </p>
             <p className='text-base md:text-lg leading-normal text-lightGray py-4 font-dmSans md:max-w-md font-normal'>
-              Using Mono's Statement Pages, Carbon can receive its users' bank
-              statements in minutes. They get cash flow on the accounts for up
-              to 12 months, all seamlessly without writing a single line of
-              code.
+              {BUSINESS_CONTENT[key].body}
             </p>
             <p className='text-base leading-normal text-blue-700 py-4 font-dmSans md:max-w-md font-semibold flex group'>
-              Read more about Statement Pages{" "}
+              {BUSINESS_CONTENT[key].link}
               <BiRightArrowAlt className='mt-[5px] ml-1 group-hover:ml-3 transition-all' />
             </p>
           </div>
 
           <div className='image-content'>
-            <img src={BusinessImg} alt='Financial' />
+            <img src={BUSINESS_CONTENT[key].img} alt='Financial-images' />
           </div>
         </section>
       </div>
