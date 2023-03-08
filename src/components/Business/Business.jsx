@@ -54,7 +54,7 @@ const Business = () => {
           </div>
 
           <div className='image-content'>
-            <img src={BUSINESS_CONTENT[key].img} alt='Financial' />
+            <img src={BUSINESS_CONTENT[key].img} alt='Financial-images' />
           </div>
         </section>
       </div>
