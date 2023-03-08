@@ -25,3 +25,8 @@
     background-size:cover;
     background-repeat: no-repeat; 
   }
+  .getstartedbg{
+    background-image: url(../src/assets/getStartedImages/gettingStartedBg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat; 
+  }
