@@ -20,6 +20,12 @@ import BusinessImg from "../assets/business.svg";
 import InflowImg from "../assets/inflow-app.svg";
 import RenMoney from "../assets/renmoney.svg";
 import Lemonade from "../assets/lemonade.svg";
+// getting started
+import api from "../assets/getStartedImages/powerfulapi.svg";
+import bag from "../assets/getStartedImages/sdks.svg";
+import wallet from "../assets/getStartedImages/wallet.svg";
+import support from "../assets/getStartedImages/slack.svg";
+import apiresponse from "../assets/getStartedImages/apiresponse.svg";
 
 export const navLinks = [
   {
@@ -163,19 +169,12 @@ export const CARD_LIST = [
   },
 ];
 
-// getting started
-import api from "../assets/getStartedImages/powerfulapi.png";
-import bag from "../assets/getStartedImages/sdks.png";
-import wallet from "../assets/getStartedImages/wallet.png";
-import support from "../assets/getStartedImages/slack.png";
-import apiresponse from "../assets/getStartedImages/apiresponse.png";
-
 export const gettingStartedUno = [
   {
     id: 1,
     icon: api,
     title: "Powerful APIs and easy-to-use resources",
-    link: "read our API Docs",
+    link: "Read our API Docs",
     img: apiresponse,
   },
 ];
@@ -185,13 +184,13 @@ export const gettingStartedDos = [
     id: 2,
     icon: bag,
     title: "Plug-and-play SDKs",
-    link: "explore our SDKs",
+    link: "Explore our SDKs",
   },
   {
     id: 3,
     icon: wallet,
     title: "Beautiful seamless UX",
-    link: "see a demo",
+    link: "See a demo",
   },
   {
     id: 4,
