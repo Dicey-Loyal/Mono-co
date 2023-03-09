@@ -23,7 +23,7 @@ const StartBuilding = () => {
                 />
                 </div>
 
-                <hr className="border-[#A5A5A5] px-5 border h-[0.2px] " />
+                <hr className="border-[#303030] border h-[0.1px] " />
         </div>
         </section>
      )
