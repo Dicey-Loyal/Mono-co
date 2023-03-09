@@ -16,6 +16,8 @@ import Documentation from "../assets/docs-icon.svg";
 import Quote from "../assets/quote.svg";
 import Testimonial1 from "../assets/testimonial1.svg";
 import Testimonial2 from "../assets/testimonial2.svg";
+import Testimonial3 from "../assets/testimonial3.webp";
+import Testimonial4 from "../assets/testimonial4.webp";
 import BusinessImg from "../assets/business.svg";
 import InflowImg from "../assets/inflow-app.svg";
 import RenMoney from "../assets/renmoney.svg";
@@ -166,6 +168,22 @@ export const CARD_LIST = [
     name: "Emmanuel Ogunsola",
     post: "Product Manager, Aella",
     test: Testimonial2,
+  },
+  {
+    id: 3,
+    img: Quote,
+    body: "We can trust Mono over 90% of the time which is better than our previous provider. This ease & reliability are our favourite things about Mono.",
+    name: "Daniel Osineye",
+    post: "Co-Founder/ CTO, Evolve Credit",
+    test: Testimonial3,
+  },
+  {
+    id: 4,
+    img: Quote,
+    body: "Migrating to Mono was seamless... The simplicity and stability of the Mono SDKs are top-notch.",
+    name: "Peter Olusesan",
+    post: "CEO, Inflow Finance",
+    test: Testimonial4,
   },
 ];
 
