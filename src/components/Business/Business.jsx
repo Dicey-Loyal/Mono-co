@@ -7,7 +7,7 @@ import { BUSINESS_CONTENT } from "../../constants/static";
 const Business = () => {
   const[key, setKey] = useState(0);
   return (
-    <section className='max-w-6xl px-5 mx-auto'>
+    <section className='max-w-6xl px-5 mx-auto md:px-14 lg:px-0'>
       {/* Header */}
       <div className='py-10'>
         <p className='text-2xl md:text-4xl lg:text-6xl max-w-lg font-normal font-dpsans'>

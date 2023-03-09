@@ -8,7 +8,7 @@ import { BiTime } from "react-icons/bi";
 
 const Build = () => {
   return (
-    <section className='max-w-6xl px-5 mx-auto'>
+    <section className='max-w-6xl px-5 md:px-14 mx-auto'>
       <div className='py-10'>
         <p className='text-2xl md:text-4xl lg:text-6xl max-w-lg font-normal font-dpsans'>
           Build for the future of digital finance.

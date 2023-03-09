@@ -3,7 +3,7 @@ import TestimonialSlider from "./TestimonialSwiper/TestimonialSlider";
 
 const TestimonialCard = () => {
   return (
-    <section className='testimonial-card my-3 sm:block md:flex justify-evenly gap-3 max-w-6xl mx-auto py-6'>
+    <section className='testimonial-card my-3 sm:block md:flex justify-evenly gap-3 max-w-6xl mx-auto py-5 '>
       <div className='swiper'>
         <TestimonialSlider testSLider={CARD_LIST} />
       </div>

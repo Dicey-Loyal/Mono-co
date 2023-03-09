@@ -38,7 +38,7 @@ const TestimonialSlider = ({ testSLider }) => {
       {testSLider.map((item, index) => (
         <SwiperSlide key={index}>
           <div
-            className='bg-grey my-3 py-8 px-7 rounded-lg w-full h-[400px] md:h-[500px] lg:h-[600px]'
+            className='bg-grey my-3 py-8  px-7 rounded-lg w-full h-[400px] md:h-[500px] lg:h-[600px]'
             key={item.id}
           >
             <div className='quote-svg my-4 flex'>

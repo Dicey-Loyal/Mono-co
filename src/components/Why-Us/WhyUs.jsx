@@ -2,7 +2,7 @@ import TestimonialCard from "./TestimonialCard";
 
 const WhyUs = () => {
   return (
-    <section className='max-w-6xl px-5 mx-auto'>
+    <section className='max-w-6xl px-5 mx-auto md:px-14 lg:px-0'>
       {/* Header */}
       <div className='py-10'>
         <p className='text-2xl md:text-4xl lg:text-6xl max-w-2xl font-normal font-dpsans'>

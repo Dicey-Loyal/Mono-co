@@ -4,7 +4,7 @@ import Build from "./components/Build/Build";
 import Business from "./components/Business/Business";
 import WhyUs from "./components/Why-Us/WhyUs";
 import GettingStarted from "./components/GettingStarted/GettingStarted.component";
-
+import StartBuilding from "./components/Footer/StartBuilding";
 function App() {
 
   return (
@@ -17,6 +17,7 @@ function App() {
         <WhyUs />
       </div>
       <GettingStarted />
+      <StartBuilding />
     </div>
   )
 }

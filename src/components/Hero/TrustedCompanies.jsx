@@ -5,7 +5,7 @@ import Evolve from "../../assets/evolvecredit.svg";
 
 const TrustedCompanies = () => {
   return (
-    <section className="mx-auto my-10 max-w-6xl px-5 md:px-0">
+    <section className="mx-auto my-10 max-w-6xl px-5 md:px-10">
         <p className="py-4 md:px-4 lg:px-0 font-semibold text-lightGray font-dmSans text-base w-fit h-fit">Trusted by</p>
         {/* Grid Section */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:px-4 lg:px-0 my-6 mx-auto">
