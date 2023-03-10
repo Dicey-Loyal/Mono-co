@@ -254,3 +254,138 @@ export const BUSINESS_CONTENT = [
     img: Lemonade,
   },
 ];
+
+export const FOOTER_LINKS = [
+  {
+    title: "Products",
+    links: [
+      {
+        name: "Connect",
+        link: "",
+      },
+      {
+        name: "Statement Pages",
+        link: "",
+      },
+      {
+        name: "DirectPay",
+        link: "",
+      },
+      {
+        name: "DirectPay Pages",
+        link: "",
+      },
+      {
+        name: "Portal",
+        link: "",
+      },
+      {
+        name: "Transactions",
+        link: "",
+      },
+      {
+        name: "Income",
+        link: "",
+      },
+      {
+        name: "Information",
+        link: "",
+      },
+      {
+        name: "Data Sync",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Resources",
+    links: [
+      {
+        name: "Developers",
+        link: "",
+      },
+      {
+        name: "Documentation",
+        link: "",
+      },
+      {
+        name: "API Reference",
+        link: "",
+      },
+      {
+        name: "SDKs",
+        link: "",
+      },
+      {
+        name: "Demo",
+        link: "",
+      },
+      {
+        name: "Join Slack",
+        link: "",
+      },
+      {
+        name: "Consumers",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Company",
+    links: [
+      {
+        name: "About us",
+        link: "",
+      },
+      {
+        name: "Partner stories",
+        link: "",
+      },
+      {
+        name: "Blog",
+        link: "",
+      },
+      {
+        name: "Coverage",
+        link: "",
+      },
+      {
+        name: "Careers",
+        link: "",
+      },
+      {
+        name: "Contact",
+        link: "",
+      },
+    ],
+  },
+  {
+    title: "Legal",
+    links: [
+      {
+        name: "End-User Policy",
+        link: "",
+      },
+      {
+        name: "Privacy Policy",
+        link: "",
+      },
+      {
+        name: "Developer Policy",
+        link: "",
+      },
+      {
+        name: "Terms of Use",
+        link: "https://github.com/daddyloyal",
+      },
+      {
+        name: "Cookies",
+        link: "",
+      },
+      {
+        name: "Security",
+        link: "",
+      },
+    ],
+  },
+];

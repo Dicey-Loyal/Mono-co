@@ -4,12 +4,11 @@ import Build from "./components/Build/Build";
 import Business from "./components/Business/Business";
 import WhyUs from "./components/Why-Us/WhyUs";
 import GettingStarted from "./components/GettingStarted/GettingStarted.component";
-import StartBuilding from "./components/Footer/StartBuilding";
+import Footer from "./components/Footer/Footer";
 function App() {
-
   return (
-    <div className="App bg-white w-full overflow-hidden">
-      <div className="xl:max-w-[1280px] mx-auto">
+    <div className='App bg-white w-full overflow-hidden'>
+      <div className='xl:max-w-[1280px] mx-auto'>
         <Header />
         <Hero />
         <Build />
@@ -17,9 +16,9 @@ function App() {
         <WhyUs />
       </div>
       <GettingStarted />
-      <StartBuilding />
+      <Footer />
     </div>
-  )
+  );
 }
 
 export default App;
