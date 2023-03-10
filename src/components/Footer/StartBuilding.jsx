@@ -1,5 +1,7 @@
 import { FiArrowRight } from "react-icons/fi" ;
 import Button from "../../snippets/Buttons/Button";
+import FooterLinks from "./FooterLinks";
+import FooterMedia from "./FooterMedia";
 
 const StartBuilding = () => {
     return ( 
@@ -24,6 +26,13 @@ const StartBuilding = () => {
                 </div>
 
                 <hr className="border-[#303030] border h-[0.1px] " />
+
+                {/* Footer Link */}
+                <FooterLinks />
+
+                <hr className="border-[#303030] border h-[0.1px] " />
+
+                <FooterMedia />
         </div>
         </section>
      )
