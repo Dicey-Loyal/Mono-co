@@ -25,7 +25,7 @@ const Business = () => {
           {BUSINESS_LIST.map((item, index) => (
             <button
               className={`py-3 px-4 rounded-full text-black cursor-pointer w-fit ${
-                index === 0 ? "bg-black text-white flex w-fit" : "bg-transparent hidden md:flex w-fit hover:bg-[#e9e9e9]"
+                index === 0 ? "bg-black text-white flex w-fit" : "bg-transparent focus:bg-black focus:text-white hidden md:flex w-fit hover:bg-[#e9e9e9]"
               }`}
               key={item.id}
               onClick = {() => setKey(index)}
