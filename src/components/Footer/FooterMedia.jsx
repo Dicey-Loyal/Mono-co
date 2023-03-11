@@ -8,7 +8,7 @@ const FooterMedia = () => {
       <div className='logo lg:flex gap-3 px-3 my-1'>
         <img src={FooterLogo} className="my-1" alt='Logo' />
         <p className='text-white text-[15px] font-dmSans font-medium '>
-          © Loyal Technologies Nigeria
+          © Loyal-Dicey Technologies Nigeria
         </p>
       </div>
       <div className='media lg:flex gap-3 px-3'>
